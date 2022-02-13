@@ -68,10 +68,16 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"],
-      "@public/*": ["public/*"]
+      "@core/*": ["packages/core/*"],
+      "@point/*": ["packages/point/*"]
     }
   },
-  "include": ["public", "src", "custom.d.ts"],
-  "exclude": ["node_modules", "build", "webpack.common.js", "webpack.dev.js", "webpack.prod.js"]
+  "include": ["packages", "custom.d.ts"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "webpack.common.js",
+    "webpack.dev.js",
+    "webpack.prod.js"
+  ]
 }

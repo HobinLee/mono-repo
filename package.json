@@ -1,21 +1,14 @@
 {
   "name": "hov-react-plate",
-  "version": "1.5.0",
-  "description": "react boiler plate for typescript",
-  "main": "index.js",
-  "author": "hovLee",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hobinlee/react-plate.git"
-  },
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --progress",
     "build": "webpack --mode production",
     "start": "webpack serve --config webpack.dev.js --progress"
-  },
-  "bin": {
-    "hov-react-plate": "./bin/generate-app.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -29,6 +22,7 @@
     "eslint": "^8.4.1",
     "fork-ts-checker-webpack-plugin": "^6.5.0",
     "html-webpack-plugin": "^5.5.0",
+    "lerna": "^4.0.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.3",
     "webpack": "^5.65.0",

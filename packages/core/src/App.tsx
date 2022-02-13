@@ -1,6 +1,6 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement } from "react";
 
-import Icon from '../public/assets/icon.svg';
+import Icon from "../public/assets/icon.svg";
 
 interface Props {}
 
