@@ -1,9 +1,11 @@
 {
   "name": "@hovlee/core",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "recoil": "^0.6.1"
+  "license": "ISC",
+  "main": "@leehov/core",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js --progress",
+    "build": "webpack --mode production",
+    "start": "webpack serve --config webpack.dev.js --progress"
   }
 }
