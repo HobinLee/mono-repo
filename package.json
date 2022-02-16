@@ -6,7 +6,6 @@
     "packages/*"
   ],
   "scripts": {
-    "core": "yarn workspace @hovlee/core",
     "point": "yarn workspace @hovlee/point"
   },
   "devDependencies": {
