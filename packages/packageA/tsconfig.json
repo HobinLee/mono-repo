@@ -5,8 +5,8 @@
     "module": "ESNext" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
     "allowJs": true /* Allow javascript files to be compiled. */,
     "jsx": "react" /* Specify JSX code generation: 'preserve', 'react-native', 'react', 'react-jsx' or 'react-jsxdev'. */,
-    "rootDir": "./" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
-    //"isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
+    "rootDir": "." /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+    "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
 
     "strict": true /* Enable all strict type-checking options. */,
 
@@ -17,8 +17,12 @@
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
     "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@public/*": ["public/*"]
+    }
   },
-  "include": ["custom.d.ts", "utils", "components"],
+  "include": ["public", "src", "custom.d.ts", "../../types.d.ts"],
   "exclude": [
     "node_modules",
     "build",

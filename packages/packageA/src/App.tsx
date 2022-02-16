@@ -6,7 +6,7 @@ interface Props {}
 function App({}: Props): ReactElement {
   return (
     <>
-      <h1>포인트함</h1>
+      <h1>패키지 A</h1>
       <MainPage />
     </>
   );

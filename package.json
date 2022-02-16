@@ -1,12 +1,12 @@
 {
-  "name": "hov-react-plate",
+  "name": "mono",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "point": "yarn workspace @hovlee/point"
+    "a": "yarn workspace @mono/a"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -20,7 +20,6 @@
     "eslint": "^8.4.1",
     "fork-ts-checker-webpack-plugin": "^6.5.0",
     "html-webpack-plugin": "^5.5.0",
-    "lerna": "^4.0.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.3",
     "webpack": "^5.65.0",
@@ -29,7 +28,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
